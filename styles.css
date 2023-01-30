@@ -1,0 +1,87 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  {
+
+    /* ff 3.6+ */
+  background:-moz-linear-gradient(90deg, #FFFF00 0%, #EE82EE 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(90deg, #FFFF00 0%, #EE82EE 100%);
+
+    /* opera 11.10+ */
+  background:-o-linear-gradient(90deg, #FFFF00 0%, #EE82EE 100%);
+
+    /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee82ee', endColorstr='#FFFF00', GradientType=0 );
+
+    /* ie 10+ */
+  background:-ms-linear-gradient(90deg, #FFFF00 0%, #EE82EE 100%);
+
+    /* global 94%+ browsers support */
+  background:linear-gradient(90deg, #FFFF00 0%, #EE82EE 100%);
+
+}
+
+}
+#quote-box {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  border: 1px solid #000;
+  padding: 20px 10px;
+  border-radius: 2%;
+}
+
+#text {
+  display: flex;
+  float: left;
+  font-size: 30px;
+  padding: 12px 16px 12px 16px;
+  font: 'Helvetica Neue',Arial,sans-serif;
+}
+#author {
+  text-align: right;
+  padding: 12px 16px 12px 16px;
+  font-size: 16px;
+  font: 'Helvetica Neue',Arial,sans-serif;
+}
+
+#new-quote {
+  display: flex;
+  float: right;
+}
+
+#tweet-quote {
+  background-color: #1F9BF8;
+  padding: 1px 12px 1px 12px;
+  float: left;
+  cursor: pointer;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  border-radius: 9999px;
+  text-align: left;
+  font: 'Helvetica Neue',Arial,sans-serif;
+  font-size: 16px;
+}
+#tweet-quote:hover {
+  background-color: #1774BB;
+}
+
+button {
+  font: 'Helvetica Neue',Arial,sans-serif;
+  font-size: 16px;
+  float: right;
+  background-color: #F44336;
+  border-radius: 9999px;
+  border: 1px solid #FFF;
+  padding: 5px 12px 5px 12px;
+  color: #FFF;
+}
+
+button:hover {
+  background-color: #AD3026;
+}
